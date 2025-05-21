@@ -8,7 +8,7 @@ import About from './pages/About'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/SkwnFrontendDev-1a---NailaNadraFahira">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

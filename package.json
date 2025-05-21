@@ -1,6 +1,6 @@
 {
   "name": "skwnfrontenddev-1a---nailanadrafahira",
-  "homepage": "https://github.com/nnadra/SkwnFrontendDev-1a---NailaNadraFahira/",
+  "homepage": "https://nnadra.github.io/SkwnFrontendDev-1a---NailaNadraFahira/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "nmpn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
